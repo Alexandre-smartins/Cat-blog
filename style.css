@@ -32,7 +32,10 @@ header {
 background-color: var(--Brand-Colors-Explorer-dark);
 
 display: flex;
-padding: 1.2rem 2.8rem;
+height: 72px;
+align-items: center;
+justify-content: center;
+
 align-items: center;
 
 gap: 2.5rem;
