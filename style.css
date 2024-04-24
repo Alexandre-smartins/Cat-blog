@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 425px;
+  display: flex;
+  margin: auto;
+  font-size: 1.6rem;
+  background-color: #fff;
+}
+
+:root {
+  font-size: 62.5%; 
+  /*Cores do projeto */
+  --Brand-Colors-Explorer-dark:#065E7C;
+  --background-color-input: rgba(255, 255, 255, 0.20);
+  --Platform-Aliases-Shape-principal: #202024;
+  --Platform-Aliases-Background: #121214;
+  }
+
+html, 
+body ,
+input {
+
+font-family: "Mulish", sans-serif;
+}
+
+header {
+background-color: var(--Brand-Colors-Explorer-dark);
+
+display: flex;
+padding: 1.2rem 2.8rem;
+align-items: center;
+
+gap: 2.5rem;
+flex-shrink: 0;
+}
+
+.input-wrapper input {
+background: rgba(255, 255, 255, 0.20);
+
+display: flex;
+align-items: center;
+gap: 1.2rem;
+border-radius: 0.4rem;
+
+padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+}
+
+.input-wrapper input::placeholder {
+color: #FFFFFF;
+font-size: 1.6rem;
+font-weight: 600;
+
+}
+
+/*Escondendo o label*/
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+#bkimagem {
+max-width: 425px;
+}
+
+.title {
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 0.8rem;
+margin: 3.1rem 0;
+
+}
+
+main h1, h2 {
+  color: var(--Platform-Aliases-Shape-principal, #202024);
+  font-size: 2.4rem;
+
+  line-height: 3.8rem; 
+}
+
+
+.action {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+button {
+  border: 0;
+  background-color: #fff;
+}
+
+section p {
+color: var(--Platform-Aliases-Background, #121214);
+font-size: 1.6rem;
+line-height:2.5rem;
+}
+
+ aside h2 {
+  color: var(--Platform-Aliases-Shape-principal, #202024);
+  font-size: 2.4rem;
+  margin-top: 3.1rem;
+  line-height: 3.8rem; 
+}
+
+article {
+display: flex;
+margin: 3.2rem 0;
+}
+
+figcaption {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+
+
+figcaption h3 {
+color: var(--Platform-Aliases-Shape-principal, #202024);
+
+
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 2.9rem;
+margin-bottom: 1.5rem;
+}
+
+figcaption span {
+color: var(--Platform-Aliases-Background, #121214);
+
+width: 21.5rem;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.2rem;
+}
+
+footer a {
+color: #FFF;
+text-decoration: none;
+text-align: center;
+font-weight: 600;
+}
+
+footer {
+background-color: var(--Brand-Colors-Explorer-dark);
+
+display: flex;
+height: 6.4rem;
+padding: 1.6rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.0rem;
+
+}
+
