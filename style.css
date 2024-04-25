@@ -189,8 +189,8 @@ grid-area: header;
 
   main {
     grid-area: main;
-   margin-right: 34px;
-   margin-top: 44px;
+   margin-right: 3.4rem;
+   margin-top: 4.4rem;
   }
 
   
@@ -212,7 +212,7 @@ grid-area: header;
 
   footer {
     grid-area: footer;
-    margin-top: 39px;
+    margin-top: 3.9rem;
   }
 
 
