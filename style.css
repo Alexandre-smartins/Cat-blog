@@ -30,7 +30,7 @@ font-family: "Mulish", sans-serif;
 
 header {
 background-color: var(--Brand-Colors-Explorer-dark);
-
+max-width: 425px;
 display: flex;
 height: 72px;
 align-items: center;
