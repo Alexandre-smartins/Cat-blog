@@ -55,7 +55,7 @@ padding: 1.2rem 1.6rem 1.2rem 1.4rem;
 }
 
 .input-wrapper input::placeholder {
-width: 100%;
+width: 232px;
 color: #FFFFFF;
 font-size: 1.6rem;
 font-weight: 600;
@@ -71,7 +71,8 @@ font-weight: 600;
   position: absolute;
 }
 #bkimagem {
-width: fit-content;
+  width: 434px;
+  height: 219px;
 }
 
 .title {
@@ -104,6 +105,7 @@ button {
 }
 
 section p {
+width: 382px;
 color: var(--Platform-Aliases-Background, #121214);
 font-size: 1.6rem;
 line-height:2.5rem;
@@ -143,7 +145,7 @@ margin-bottom: 0.1rem;
 figcaption span {
 color: var(--Platform-Aliases-Background, #121214);
 
-width: 21.5rem;
+width: 215px;
 font-size: 1.4rem;
 font-style: normal;
 font-weight: 400;
